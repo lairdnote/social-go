@@ -1,4 +1,4 @@
-# api-go
+# social-go
 
 以 Gin，Gorm 为基础的 Golang WebAPI 项目开发框架，可以以本项目为基础快速开发 Web API 服务，本项目大量参考 [singo](https://github.com/Gourouting/singo)，感谢！
 
@@ -7,7 +7,7 @@
 1. 整合了一些常用组件：
 
 - [Gin](https://github.com/gin-gonic/gin): 轻量级Web框架，自称路由速度是golang最快的
-- [GORM](http://gorm.io/docs/index.html): ORM工具，本项目需要配合Mysql使用
+- [GORM](http://gorm.io/docs/index.html): ORM工具，本项目需要配合Postgres使用
 - [Go-Redis](https://github.com/go-redis/redis): Golang Redis客户端，用于缓存相关功能
 - [godotenv](https://github.com/joho/godotenv): 开发环境下的环境变量工具，方便使用环境变量
 - [Jwt-Go](https://github.com/dgrijalva/jwt-go): Golang JWT组件，本项目使用基于 jwt 实现的 token 来做身份验证

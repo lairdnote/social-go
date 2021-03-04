@@ -17,6 +17,6 @@ func Init() {
 	gin.SetMode(os.Getenv("GIN_MODE"))
 
 	// 启动各种连接单例
-	model.Database(os.Getenv("MYSQL_URL"))
+	model.Database(os.Getenv("POSTGRES_DSN"))
 	cache.Redis(os.Getenv("REDIS_URL"))
 }

@@ -1,6 +1,7 @@
 package model
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/jinzhu/gorm"
@@ -16,7 +17,7 @@ func Database(connString string) {
 	db.LogMode(true)
 	// Error
 	if err != nil {
-		panic( err)
+		panic(err.Error())
 	}
 	db.DB().SetMaxIdleConns(50)
 	//打开
@@ -34,6 +35,6 @@ func migration() {
 	// 自动迁移模式
 	err := DB.AutoMigrate(&User{})
 	if err != nil {
-		panic(err)
+		fmt.Print(err)
 	}
 }

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"api-go/conf"
-	"api-go/router"
+	"social/conf"
+	"social/router"
 )
 
 func main() {
