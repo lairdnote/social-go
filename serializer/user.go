@@ -1,6 +1,6 @@
 package serializer
 
-import "social/model"
+import "github.com/lairdnote/social/model"
 
 // 单个用户信息
 type UserData struct {

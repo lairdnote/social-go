@@ -1,8 +1,8 @@
 package v1
 
 import (
-	v1 "social/api/v1"
-	"social/middleware/auth"
+	v1 "github.com/lairdnote/social/api/v1"
+	"github.com/lairdnote/social/middleware/auth"
 
 	"github.com/gin-gonic/gin"
 )

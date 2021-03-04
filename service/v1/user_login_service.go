@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"social/middleware/auth"
-	"social/model"
-	"social/serializer"
+	"github.com/lairdnote/social/middleware/auth"
+	"github.com/lairdnote/social/model"
+	"github.com/lairdnote/social/serializer"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"

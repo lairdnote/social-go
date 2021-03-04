@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"social/cache"
-	"social/serializer"
+	"github.com/lairdnote/social/cache"
+	"github.com/lairdnote/social/serializer"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"

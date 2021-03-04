@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"social/cache"
-	"social/serializer"
-	v1 "social/service/v1"
+	"github.com/lairdnote/social/cache"
+	"github.com/lairdnote/social/serializer"
+	v1 "github.com/lairdnote/social/service/v1"
 
 	"github.com/gin-gonic/gin"
 )

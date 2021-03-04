@@ -1,8 +1,8 @@
 package v1
 
 import (
-	"social/model"
-	"social/serializer"
+	"github.com/lairdnote/social/model"
+	"github.com/lairdnote/social/serializer"
 )
 
 // 用户注册所需信息

@@ -1,8 +1,8 @@
 package conf
 
 import (
-	"social/cache"
-	"social/model"
+	"github.com/lairdnote/social/cache"
+	"github.com/lairdnote/social/model"
 	"os"
 
 	"github.com/gin-gonic/gin"

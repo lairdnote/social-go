@@ -1,8 +1,8 @@
 package router
 
 import (
-	"social/api"
-	v1 "social/router/v1"
+	"github.com/lairdnote/social/api"
+	v1 "github.com/lairdnote/social/router/v1"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"social/model"
+	"github.com/lairdnote/social/model"
 
 	"github.com/gin-gonic/gin"
 )

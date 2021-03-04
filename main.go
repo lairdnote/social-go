@@ -1,8 +1,8 @@
 package main
 
 import (
-	"social/conf"
-	"social/router"
+	"github.com/lairdnote/social/conf"
+	"github.com/lairdnote/social/router"
 )
 
 func main() {
