@@ -13,6 +13,7 @@ func UserRegister(c *gin.Context) {
 	var service v1.UserRegisterService
 	var res *serializer.Response
 	if err := c.ShouldBind(&service); err != nil {
+		print(err.Error())
 		res = serializer.ErrorResponse(serializer.CodeParamError)
 	} else {
 		res = service.Register()

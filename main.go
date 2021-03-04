@@ -13,5 +13,5 @@ func main() {
 	r := router.InitRouter()
 
 	// 运行在8080端口
-	r.Run()
+	r.Run(":8080")
 }

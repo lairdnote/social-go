@@ -7,7 +7,7 @@ import (
 
 // 用户注册所需信息
 type UserRegisterService struct {
-	Username        string `form:"username" binding:"required,min=3,max=10"`
+	Username        string `form:"username" binding:"required,min=6,max=10"`
 	Password        string `form:"password" binding:"required,min=6,max=18"`
 	PasswordConfirm string `form:"password_confirm" binding:"required,min=6,max=18"`
 }
@@ -15,7 +15,9 @@ type UserRegisterService struct {
 // 验证表单
 func (service *UserRegisterService) Valid() *serializer.Response {
 	// 两次输入密码不一致
+	print(service)
 	if service.PasswordConfirm != service.Password {
+		print("not same")
 		return serializer.ErrorResponse(serializer.CodePasswordConfirmError)
 	}
 
